@@ -17,7 +17,7 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: #0e221b;
 }
 
 /* Transition */
@@ -43,23 +43,35 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+
+}
+
+.nav-links a {
+
+    color: #0e221b;
+
 }
 
 a {
-    color: black;
+    color: #0e221b;
     text-decoration: none;
     text-decoration-color: white;
 }
 
 a:hover {
-    color: grey;
+
+    color: #0e221b;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: #d86932;
 }
 
 .logo {
     font-size: 2rem;
+    background: #0e221b;
+    border-radius: 4rem;
+    color: #d86932;
+    padding: 0.5rem;
 }
 
 .logo:hover {
@@ -107,7 +119,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: #0e221b;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -181,6 +193,7 @@ section {
 .section_text {
     align-self: center;
     text-align: center;
+    color: #0e221b;
 }
 
 .section_text p {
@@ -245,12 +258,13 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-    background: rgb(53, 53, 53);
-    color: white;
+    background: #0e221b;
+    color: #d86932;
 }
 
 .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    background: #0e221b;
+    color: #d86932;
 
 }
 
@@ -273,6 +287,7 @@ section {
 
 #about {
     position: relative;
+    color: #0e221b;
 }
 
 .about-containers {
@@ -284,6 +299,7 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    color: #d86932;
 }
 
 .about-containers,
@@ -293,6 +309,9 @@ section {
 
 .about-pic {
     border-radius: 2rem;
+    height: 400px;
+    width: 400px;
+
 
 }
 
@@ -307,11 +326,15 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: #0e221b;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+
+.details-container p {
+    color: #d86932;
 }
 
 .section-container {
@@ -322,8 +345,10 @@ section {
 .section_pic-container {
     height: 400px;
     width: 400px;
-    margin: auto 0;
+    margin: auto 4rem auto 0;
 }
+
+
 
 /* Expereince */
 
@@ -332,7 +357,7 @@ section {
 }
 
 .experience-sub-title {
-    color: rgb(85, 85, 85);
+    color: #d86932;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -351,6 +376,7 @@ section {
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+    color: #d86932;
 }
 
 article {
@@ -367,10 +393,11 @@ article .icon {
 /* Projects */
 #projects {
     position: relative;
+    color: #0e221b;
 }
 
 .color-container {
-    border-color: rgb(163, 163, 163);
+    border-color: #0e221b;
     background: rgb(250, 250, 250);
 }
 
@@ -388,6 +415,8 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+    background-color: #0e221b;
+    color: #d86932;
 }
 
 
