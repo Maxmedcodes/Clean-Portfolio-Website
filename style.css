@@ -407,6 +407,11 @@ article .icon {
     height: 90%;
 }
 
+#Ecommerce {
+    height: 100px;
+    width: 100px;
+}
+
 .project-title {
     margin: 1rem;
     color: black;
