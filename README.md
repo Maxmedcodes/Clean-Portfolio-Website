@@ -6,4 +6,3 @@
 ![Screenshot 2024-07-07 130306](https://github.com/Maxmedcodes/Clean-Portfolio-Website/assets/70708155/8747cdf8-ec26-4e14-acb6-c3d760d55db9)
 
 
-![alt text](ReactNativeMovieAPP.png)
